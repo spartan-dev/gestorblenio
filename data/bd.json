@@ -1,0 +1,14 @@
+{
+  "proyectos": [
+    { "nombre": "Marcus", "lenguaje": "JavaScript", "monto": "9800" },
+    { "nombre": "Anna", "lenguaje": "PHP", "monto": "12000" },
+    { "nombre": "Elizabeth", "lenguaje": "Java", "monto": "10000" },
+    { "nombre": "Michael", "lenguaje": "C#", "monto": "12000" },
+    { "nombre": "Piter", "lenguaje": "C++", "monto": "14000" },
+    { "nombre": "Margareth", "lenguaje": "Go", "monto": "22000" },
+    { "nombre": "Julia", "lenguaje": "JavaScript", "monto": "9000" },
+    { "nombre": "John", "lenguaje": "Python", "monto": "19000" },
+    { "nombre": "Joseph", "lenguaje": "Ruby", "monto": "22000" },
+    { "nombre": "Lisa", "lenguaje": "C++", "monto": "15000" }
+  ]
+}

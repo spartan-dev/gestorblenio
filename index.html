@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor de Proyectos</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="menu">
+        <button onclick="abrirPanel('agregar')" class="opcion activo">
+          Agregar
+        </button>
+        <button onclick="abrirPanel('listar')" class="opcion">Listar</button>
+      </div>
+
+      <div id="agregar" class="panel activa">
+        <h2>Agregar Proyecto</h2>
+        <form>
+          <input type="text" id="nombre" placeholder="Nombre del Proyecto" />
+          <input type="text" id="lenguaje" placeholder="Lenguaje" />
+          <input type="number" id="monto" placeholder="Monto" />
+          <button type="submit" onclick="insertar(event)">Agregar</button>
+        </form>
+      </div>
+
+      <div id="listar" class="panel">
+        <h2>Historial de Proyectos</h2>
+        <table class="centrarTabla" id="listarProyectos" border="1">
+          <tr>
+            <th>Proyecto</th>
+            <th>Lenguaje</th>
+            <th>Monto Facturado en Dólares</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="./js/funciones.js"></script>
+  </body>
+</html>
+
+function abrirPanel(panelInicial){
